@@ -1,0 +1,147 @@
+body {
+    font-size: 1rem;
+}
+
+header {
+    >.container-header {
+        margin-left: 50px;
+        margin-right: 50px;
+        width:fit-content;
+    }
+    >div>h1 {
+        text-align: center;
+    }
+    >div>nav>div {
+        display: flex;
+    }
+    >div>nav>div>a {
+        text-decoration: none;
+        color: $black;
+        font-size: 1.25em;
+    }
+    >div>nav>div>a:hover {
+        text-decoration:none;
+        color: $warning;
+        font-size: 1.25em;
+    }
+}
+
+.container-nav {
+    margin-left: 50px;
+    margin-right: 50px;
+    width:fit-content;
+}
+
+.last-line {
+    
+}
+
+.div-transports {
+    min-height: 80px;
+}
+
+.container-transports {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bg-grey {
+    background-color: $lightgrey;
+    box-sizing: border-box;
+}
+
+main>div>div>div>a {
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid $black !important;
+}
+
+main>div>div>div>a:hover {
+    color: black !important;
+    background-color: $white !important;
+    border: 1px solid $black !important;
+    box-sizing: border-box;
+}
+
+.container-festival {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-liens-festival,
+.container-h2-festival {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-liens-festival {
+    flex-flow: row wrap;
+}
+
+article {
+    min-width: 306px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+article>div {
+    margin-left: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+article>div>a {
+    text-decoration: none;
+    color: white;
+}
+
+article>div>a:hover {
+    text-decoration: none;
+    color: $warning;
+}
+
+img {
+    max-width: 100%;
+}
+
+article>div>div>div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+article>div>div>div>a {
+    color: white;
+    text-decoration: none;
+}
+
+article>div>div>div>a:hover {
+    color: $warning;
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+.btn-warning:hover {
+    background-color: white;
+    color: $warning;
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.btn-white:hover {
+    background-color: $warning;
+}
