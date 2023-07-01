@@ -11906,7 +11906,7 @@ main > div > div > div > a {
 }
 
 main > div > div > div > a:hover {
-  color: black !important;
+  color: #101010 !important;
   background-color: #FAFAFA !important;
   border: 1px solid #101010 !important;
   box-sizing: border-box;
@@ -11921,16 +11921,12 @@ main > div > div > div > a:hover {
   margin-right: 50px;
 }
 
-.container-h2-festival {
-  max-width: fit-content;
-}
-
 .container-liens-festival {
   flex-flow: row wrap;
 }
 
 article {
-  min-width: 306px;
+  min-width: 304px;
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
@@ -11947,12 +11943,12 @@ article > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: white;
+  color: #FAFAFA;
 }
 
 article > div > a {
   text-decoration: none;
-  color: white;
+  color: #FAFAFA;
 }
 
 article > div > a:hover {
@@ -11970,7 +11966,7 @@ article > div > div > div {
 }
 
 article > div > div > div > a {
-  color: white;
+  color: #FAFAFA;
   text-decoration: none;
 }
 
@@ -11984,12 +11980,12 @@ article > div > div > div > a:hover {
 }
 
 .btn-warning:hover {
-  background-color: white;
+  background-color: #FAFAFA;
   color: #F74E2D;
 }
 
 .btn-white {
-  background-color: white;
+  background-color: #FAFAFA;
 }
 
 .btn-white:hover {

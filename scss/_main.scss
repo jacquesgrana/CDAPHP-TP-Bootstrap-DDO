@@ -47,7 +47,7 @@ main>div>div>div>a {
 }
 
 main>div>div>div>a:hover {
-    color: black !important;
+    color: $black !important;
     background-color: $white !important;
     border: 1px solid $black !important;
     box-sizing: border-box;
@@ -62,16 +62,12 @@ main>div>div>div>a:hover {
     margin-right: 50px;
 }
 
-.container-h2-festival {
-    max-width: fit-content;
-}
-
 .container-liens-festival {
     flex-flow: row wrap;
 }
 
 article {
-    min-width: 306px;
+    min-width: 304px;
     margin-bottom: 20px;
     position: relative;
     overflow: hidden;
@@ -88,12 +84,12 @@ article>div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: white;
+    color: $white;
 }
 
 article>div>a {
     text-decoration: none;
-    color: white;
+    color: $white;
 }
 
 article>div>a:hover {
@@ -112,7 +108,7 @@ article>div>div>div {
 }
 
 article>div>div>div>a {
-    color: white;
+    color: $white;
     text-decoration: none;
 }
 
@@ -126,12 +122,12 @@ article>div>div>div>a:hover {
 }
 
 .btn-warning:hover {
-    background-color: white;
+    background-color: $white;
     color: $warning;
 }
 
 .btn-white {
-    background-color: white;
+    background-color: $white;
 }
 
 .btn-white:hover {
