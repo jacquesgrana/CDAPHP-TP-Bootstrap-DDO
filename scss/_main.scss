@@ -31,18 +31,8 @@ header {
     margin-right: 50px;
     width:fit-content;
 }
-
-.last-line {
-    
-}
-
 .div-transports {
     min-height: 80px;
-}
-
-.container-transports {
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .bg-grey {
@@ -63,15 +53,17 @@ main>div>div>div>a:hover {
     box-sizing: border-box;
 }
 
-.container-festival {
+.container-transports,
+.container-festival,
+.container-liens-festival,
+.container-h2-festival,
+.container-spectacles {
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.container-liens-festival,
 .container-h2-festival {
-    margin-left: 50px;
-    margin-right: 50px;
+    max-width: fit-content;
 }
 
 .container-liens-festival {
