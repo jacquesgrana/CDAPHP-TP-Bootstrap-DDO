@@ -11886,8 +11886,6 @@ header > div > nav > div > a:hover {
 }
 
 .container-nav {
-  margin-left: 50px;
-  margin-right: 50px;
   width: fit-content;
 }
 
@@ -11905,7 +11903,6 @@ main > div > div > div > a {
   text-decoration: none;
   border: 1px solid #101010 !important;
 }
-
 main > div > div > div > a:hover {
   color: #101010 !important;
   background-color: #FAFAFA !important;
@@ -11913,6 +11910,7 @@ main > div > div > div > a:hover {
   box-sizing: border-box;
 }
 
+.container-nav,
 .container-transports,
 .container-festival,
 .container-liens-festival,
@@ -11928,11 +11926,17 @@ main > div > div > div > a:hover {
 
 article {
   min-width: 304px;
+  height: auto;
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
-
+article:hover {
+  transform: translateY(-10px);
+}
+article > img {
+  max-width: 100%;
+}
 article > div {
   margin-left: 20px;
   position: absolute;
@@ -11946,34 +11950,28 @@ article > div {
   justify-content: space-between;
   color: #FAFAFA;
 }
-
 article > div > a {
   text-decoration: none;
   color: #FAFAFA;
+  background-color: #101010;
+  width: fit-content;
+  min-width: 140px;
+  padding: 10px;
 }
-
 article > div > a:hover {
   text-decoration: none;
-  color: #F74E2D;
+  color: #101010;
+  background-color: #FAFAFA;
 }
-
-img {
-  max-width: 100%;
-}
-
 article > div > div > div {
   display: flex;
   justify-content: space-between;
 }
-
-article > div > div > div > a {
-  color: #FAFAFA;
-  text-decoration: none;
-}
-
-article > div > div > div > a:hover {
-  color: #F74E2D;
-  text-decoration: none;
+article > div > div > p.date-spectacle {
+  border-bottom: 3px solid #F74E2D;
+  opacity: 100%;
+  margin-top: -15px;
+  width: fit-content;
 }
 
 .btn {
