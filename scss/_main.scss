@@ -7,12 +7,14 @@ header {
         margin-left: 50px;
         margin-right: 50px;
         width:fit-content;
+        flex-direction: column;
     }
     >div>h1 {
         text-align: center;
     }
     >div>nav>div {
         display: flex;
+        
     }
     >div>nav>div>a {
         text-decoration: none;
@@ -132,4 +134,16 @@ article>div>div>div>a:hover {
 
 .btn-white:hover {
     background-color: $warning;
+}
+
+@media only screen and (max-width: 768px){
+    #navbarLinks {
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    main>div>div>div>h2 {
+        text-align: center !important;
+    }
 }
